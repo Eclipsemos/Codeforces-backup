@@ -32,6 +32,6 @@ int main()
 {
     Solution S;
     vc v = {3,2,4};
-    S.twoSum(v,6);
+    cout<<S.twoSum(v,6);
     return 0;
 }
