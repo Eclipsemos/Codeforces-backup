@@ -2,6 +2,7 @@
 ---
 ## Date: 2021/9/27 (weekly update)
 > Status
+- problems solved:44
 - OA: 0
 - Interview: 0
 - Offer: 0
