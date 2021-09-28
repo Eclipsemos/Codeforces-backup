@@ -35,6 +35,6 @@ int main()
     Solution S;
     vector<string> v;
     v.push_back("++X");v.push_back("X++");v.push_back("--X");
-    S.finalValueAfterOperations(v);
+    cout<<S.finalValueAfterOperations(v);
     return 0;
 }
