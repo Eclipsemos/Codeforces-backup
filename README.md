@@ -1,4 +1,5 @@
 # SDE INTERN PREPARE
+[STATUS](https://github.com/Eclipsemos/SDE-INTERN-PREPARE)
 ---
 ## Date: 2021/9/27 (weekly update)
 > Status
@@ -11,8 +12,6 @@
 - Lc DP training
 - Lc Amazon problems
 ---
-
-
 
 
 
