@@ -65,6 +65,11 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "unordered_set": "cpp",
+        "iterator": "cpp",
+        "map": "cpp",
+        "random": "cpp",
+        "set": "cpp"
     }
 }
