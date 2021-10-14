@@ -1,15 +1,12 @@
 # SDE INTERN PREPARE
-[STATUS](https://leetcode-cn.com/u/nrtmos/)
+[LC STATUS](https://leetcode-cn.com/u/nrtmos/)
 ---
-## Date: 2021/10/9 (weekly update)
+## Date: 2021/10/13
 > Status
-- problems solved:61(cn)
-- OA: 1
-- Interview: 0
-- Offer: 0
+- problems solved:67(cn server)
 > To-do list
-- LinkedIn & Handshake applications
-- Lc Amazon problems
+- LC Amazon problems 10/50 20%
+## YOU CAN'T EVEN SOLVE MEDIUM IN 10 MINS. HOW CAN YOU GET AN INTERN
 ---
 
 
