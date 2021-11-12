@@ -8,9 +8,24 @@ using namespace std;
 //
 int main()
 {
-    cout<<"a"<<endl;
+    int a =2;
+   
+    for(int i=0;i<=20;i++)
+    {
+         a ^=i;
+         cout<<i<<": "<<a<<endl;
+        a =2;
+    }
+     
    //vc v={};
-
+   //1  5
+   //2  6
+   //3  7
+   //4  0;
+   //5  1;
+   //6  2;
+   //7  3;
+   //8  12
     return 0;
  }
  

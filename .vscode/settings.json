@@ -71,6 +71,7 @@
         "map": "cpp",
         "random": "cpp",
         "set": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "xstring": "cpp"
     }
 }
