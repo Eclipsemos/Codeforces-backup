@@ -3,7 +3,7 @@
 ---
 ## Date: 2021/11/14
 > Status
-- problems solved:132(cn server)
+- problems solved:134(cn server)
 ## Monthly Plan
 - 2 Meidum Leetcode per day
 - Focus on FULL STACK web project
