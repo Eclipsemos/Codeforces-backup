@@ -1,9 +1,9 @@
 # SDE INTERN PREPARE
-[LC STATUS](https://leetcode-cn.com/u/nrtmos/)
+[LC STATUS CN SERVER](https://leetcode-cn.com/u/nrtmos/)
 ---
-## Date: 2021/11/14
+## Date: 2021/12/4
 > Status
-- problems solved:134(cn server)
+- problems solved:145(cn server)
 ## Monthly Plan
 - 2 Meidum Leetcode per day
 - Focus on FULL STACK web project
@@ -11,8 +11,11 @@
 ## SKILL COLLECTIONS:
 - [埃式筛](https://blog.csdn.net/holly_Z_P_F/article/details/85063174)
 - [并查集](https://zhuanlan.zhihu.com/p/93647900/)
-- [最短路]
-- [字符串专题]
+- [快速幂](https://zhuanlan.zhihu.com/p/95902286)
+- [K个数问题合集]
+- [BFS]
+- [DFS]
+- [树专题]
 ---
 
 
