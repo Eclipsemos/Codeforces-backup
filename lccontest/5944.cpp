@@ -14,67 +14,48 @@ struct TreeNode
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-class Solution
-{
-public:///BFS + MAP
-    unordered_map<int,TreeNode*> mp;
-    unordered_map<int,TreeNode*> nums;
-    int len=0;
-    void dfs(TreeNode *now)
+class Solution {
+public:
+    string path1;
+    string path2;
+    void search(TreeNode *curNode, string &cur,int val1,int val2)
     {
-        len++;
-        nums[now->val]= now;
-        if(now->left!=nullptr)
+        if(curNode==nullptr||(!path1.empty()&&!path2.empty()))
+            return;
+        if(curNode->val==val1)
         {
-            mp[now->left->val]=now;
-            dfs(now->left);
+            path1 = cur;
         }
-
-        if(now->right!=nullptr)
+        if(curNode->val==val2)
         {
-            mp[now->right->val]=now;
-            dfs(now->right);
+            path2 = cur;
         }
+        cur.push_back('L');
+        search(curNode->left,cur,val1,val2);
+        cur.pop_back();
+        cur.push_back('R');
+        search(curNode->right,cur,val1,val2);
+        cur.pop_back();
     }
-    struct Node
-    {
-        TreeNode* tnode;
-        int data;
-        string str;
-        Node(TreeNode *t,int d,string s):tnode(t),data(d),str(s){}
-    };
-    
-    string getDirections(TreeNode *root, int startValue, int destValue)
-    {
-        mp[root->val] =nullptr;
-        TreeNode* copy = root;
-        dfs(copy);
-        queue<Node*> q;
-        int vis[len+1];
-        q.push(new Node(nums[startValue],0,""));
-        
-        while(!q.empty())
+    string getDirections(TreeNode* root, int startValue, int destValue) {
+        string temp;
+        search(root,temp,startValue,destValue);
+        int m = path1.size();
+        int n= path2.size();
+        int min = m<n?m:n;
+        cout<<path1<<" "<<path2;
+        int i=0;
+        for(;i<min;++i)
         {
-            Node* now = q.front();
-            if(now->tnode->val==destValue)
-             return now->str;
-            q.pop(); 
-            vis[now->tnode->val]=1;
-            cout<<now->str<<endl;
-            if(mp[now->tnode->val]!=nullptr&&vis[mp[now->tnode->val]->val]!=1)
-            {
-                q.push(new Node(mp[now->tnode->val],now->data+1,now->str+"U"));
-            }
-            if(now->tnode->left!=nullptr&&vis[now->tnode->left->val]!=1)
-            {
-                q.push(new Node(now->tnode->left,now->data+1,now->str+"L"));
-            }
-            if(now->tnode->right!=nullptr&&vis[now->tnode->right->val]!=1)
-            {
-                q.push(new Node(now->tnode->right,now->data+1,now->str+"R"));
-            }
+            if(path1[i]!=path2[i])
+                break;
         }
-        return "";
+        //min;//这是根的位置
+        int len = m-i;
+        string ans(len,'U');
+        if(i<n)
+            ans+=path2.substr(i);
+        return ans;
     }
 };
 //
