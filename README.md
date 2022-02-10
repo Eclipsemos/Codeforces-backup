@@ -1,13 +1,10 @@
 # SDE INTERN PREPARE
 [LC STATUS CN SERVER](https://leetcode-cn.com/u/nrtmos/)
 ---
-## Date: 2021/12/4
+## Date: 2022/2/9
 > Status
-- problems solved:145(cn server)
-## Monthly Plan
-- 2 Meidum Leetcode per day
-- Focus on FULL STACK web project
-- Prepare for Midterm
+- problems solved:176
+- [华为实习](https://career.huawei.com/reccampportal/portal5/campus-recruitment-detail.html?jobId=119004)
 ## SKILL COLLECTIONS:
 - [埃式筛](https://blog.csdn.net/holly_Z_P_F/article/details/85063174)
 - [并查集](https://zhuanlan.zhihu.com/p/93647900/)
