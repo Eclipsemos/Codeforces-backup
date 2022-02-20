@@ -1,18 +1,15 @@
-# SDE INTERN PREPARE
-[LC STATUS CN SERVER](https://leetcode-cn.com/u/nrtmos/)
+# 找不到实习了捏
+[力扣](https://leetcode-cn.com/u/nrtmos/)
 ---
-## Date: 2022/2/9
+## Date: 2022/2/19
 > Status
-- problems solved:176
-- [华为实习](https://career.huawei.com/reccampportal/portal5/campus-recruitment-detail.html?jobId=119004)
-## SKILL COLLECTIONS:
+- problems solved:187
+- OA: Alarm Huawei Micosoft
+## 收藏:
 - [埃式筛](https://blog.csdn.net/holly_Z_P_F/article/details/85063174)
 - [并查集](https://zhuanlan.zhihu.com/p/93647900/)
 - [快速幂](https://zhuanlan.zhihu.com/p/95902286)
-- [K个数问题合集]
-- [BFS]
-- [DFS]
-- [树专题]
+- [DP](https://leetcode.com/study-plan/dynamic-programming/?progress=w2r3y61)
 ---
 
 
