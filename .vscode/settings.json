@@ -73,6 +73,7 @@
         "set": "cpp",
         "xtree": "cpp",
         "xstring": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "queue": "cpp"
     }
 }
