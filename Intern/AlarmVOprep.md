@@ -32,7 +32,6 @@ Oauth: My personal project: many of my friends decided to build websites with lo
 So if they are not familiar with the design/flow--> waste time
 #### But my projects provides a entire working function for login, so the only thing my projects need is a database of yours to store your login info. And my project provides the verification, and redir to front end
 
-My
 
 
 
