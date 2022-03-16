@@ -9,22 +9,25 @@ class Solution
 public:
     int search(vector<int> &nums, int target)
     {
-        int l=0;
-        int r=nums.size()-1;
-        
-        while(l<=r)
+        int l = 0, r = nums.size()-1;
+        if(r==0)
         {
-            int mid = (l+r)/2;
-            int curr = nums[mid];
-            if(curr == target)
-             return mid;
-            else if(curr<target)
+            return (target==nums[r])?0:-1;
+        }
+        while(l<r)
+        {
+            int m = (l+r)/2;
+            if(nums[m]==target)
             {
-                 l = mid+1;
+                return m;
+            }
+            else if(nums[m]<target)
+            {
+                l = m+1;
             }
             else
             {
-                r=mid-1;
+                r = m;
             }
         }
         return -1;
@@ -34,7 +37,7 @@ public:
 int main()
 {
     Solution S;
-    vc nums={-1,0,3,5,9,12};
-    cout<<S.search(nums,9)<<endl;
+    vc nums = {5};
+    cout << S.search(nums, 5) << endl;
     return 0;
 }

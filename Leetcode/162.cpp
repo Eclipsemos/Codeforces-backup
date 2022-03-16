@@ -23,6 +23,7 @@ public:
             {
                 return l-1;
             }
+
             if(nums[r]>=dr)
             {
                 dr = nums[r];
@@ -31,6 +32,7 @@ public:
             {
                 return r+1;
             }
+            
             r--;
             l++;
         }
