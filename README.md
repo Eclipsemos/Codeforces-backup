@@ -2,7 +2,7 @@
 [力扣主页](https://leetcode-cn.com/u/nrtmos/)
 ---
 - [剑指Offer](/JZOFF/)
-- [动态规划联系](/DP_Leetcode/)
+- [动态规划](/DP_Leetcode/)
 - [算法练习#1](/Algorithm1/)
 - [力扣周赛](/lccontest/)
 - [Codeforces](/Codeforces/)
