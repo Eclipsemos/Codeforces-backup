@@ -3,19 +3,17 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:\\mingw\\mingw32\\lib\\gcc\\i686-w64-mingw32\\8.1.0\\include\\c++\\i686-w64-mingw32"
+                "${workspaceFolder}/**"//,
+                 //"I:\\BOOST\\boost_1_74_0",
+                 //"I://BOOST//boost_1_74_0//libs//asio"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "F:\\vs2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "compilerPath": "I:\\mingw64\\bin\\gcc.exe",
+            "intelliSenseMode": "gcc-x64"
         }
     ],
     "version": 4
