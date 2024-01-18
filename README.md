@@ -1,4 +1,4 @@
-# 2024 Pre MCS
+# 2024 MCS SUMMER INTERN
 
 ## [Leetcode CN ](https://leetcode-cn.com/u/nrtmos/) 238 Solved Nov. 9 2023<br>
 ## [Leetcode EN](https://leetcode.com/maywish/) 184 Solved Nov.9 2023
