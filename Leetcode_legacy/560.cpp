@@ -4,26 +4,27 @@ using namespace std;
 #define ll long long
 #define vc vector<int>
 //
-class Solution
-{
+class Solution {
 public:
-    int subarraySum(vector<int> &nums, int k)
-    {
-        vector<int> pre;
-        map<int,int> mp;
-        int pr=0;
-        mp[0]=1;
-        int ans=0;
-        for(int i=0;i<nums.size();i++)
+    int subarraySum(vector<int>& nums, int k) {
+        int ans = 0;
+        int n = nums.size();
+        int pref[20005];
+        pref[0] = nums[0];
+      
+        map<int, int> mp;
+        mp[0]++;
+        mp[nums[0]]++;
+        for(int i=1;i<n;i++)
         {
-            pr+=nums[i];
-            pre.push_back(pr);
-            if(mp.count(pre[i]-k))
+            pref[i] = nums[i]+pref[i-1];
+            if(mp.count(pref[i]-k)!=0)
             {
-                ans+=mp[pre[i]-k];
+                ans+=mp[pref[i]-k];
             }
-            mp[pr]++;
+            mp[pref[i]]++;
         }
+
         return ans;
     }
 };
@@ -31,7 +32,7 @@ public:
 int main()
 {
     Solution S;
-    vc v={1};
-    S.subarraySum(v,1);
+    vc v={1,1,1};
+    S.subarraySum(v,2);
     return 0;
 }
